@@ -1,0 +1,11 @@
+transaction_id,account_id,timestamp,amount,transaction_type,location,status
+f9a71fa4-1d36-4a88-9bc9-79c7d4ad1e64,afc94f10-53a6-419f-9a25-f5d9c49739f7,2023-09-15 12:34:56,450.75,deposit,New York,completed
+6c149d5c-d620-4566-b195-1ae5a91f249f,c71efb1f-b438-47b0-9b5d-ec933625be76,2023-10-02 09:12:30,325.50,withdrawal,Chicago,completed
+77988b0d-2c58-4f8a-849f-931a2ed6d660,72b7f013-bf7f-47d9-b939-e059e83551f1,2023-08-23 16:22:10,1500.00,transfer,Los Angeles,pending
+7bc9d3f0-bdd9-4d8c-9f2c-e2f42117a57b,fc6eaf4c-4441-4080-bc24-d3770e74ad38,2023-07-14 07:30:45,750.25,deposit,Miami,completed
+94e54811-9f6d-4d62-aad2-d5cce4e4e64f,cdb2d2c8-bc5b-4199-93a1-8f98cc6fba58,2023-09-11 20:40:10,1200.00,withdrawal,New York,failed
+5c3b1fd3-f1ca-4329-88c5-569dd94b3890,ad3e8c76-7244-4632-a9fa-b8b5ac7d5c3e,2023-06-30 14:15:22,3000.00,transfer,Chicago,completed
+15fd32db-28fc-4c89-b3db-d1932828d2a4,8c6a6d73-2e1b-45a7-b0cc-1a8ec9d5b684,2023-09-10 05:28:45,900.25,deposit,Dallas,completed
+ebf45919-c2da-4577-9a6e-b1ad96d9128a,8bc084a3-88ad-4782-9f71-2394c85f9e8b,2023-07-02 11:05:50,5000.00,withdrawal,Boston,pending
+d73a1c9a-1c57-4904-88e2-7ae36f6cf7d0,df57adf0-9b7f-45bb-89ae-1f4dca85e4b0,2023-06-18 19:35:28,2500.00,deposit,San Francisco,completed
+9a1a2f8d-d569-43ad-81b4-615c7f3bfe4f,2d2e4be7-9a2c-4f5a-9f23-6c1f4f5e9a37,2023-05-30 13:50:17,850.00,transfer,Seattle,failed
