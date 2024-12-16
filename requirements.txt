@@ -1,0 +1,8 @@
+pandas==1.5.3
+numpy==1.24.1
+apache-airflow==2.7.1
+psycopg2-binary==2.9.5
+Faker==15.3
+streamlit==1.15.0
+plotly==5.9.0
+pyspark==3.3.0
