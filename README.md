@@ -1,31 +1,24 @@
-# Banking Transaction Data Pipeline for Fraud Detection
+# Banking Transaction Data Pipeline for Fraud Detection - PoC for VPBank
 
-This project demonstrates a scalable data engineering pipeline for processing and analyzing financial transaction data in the banking and finance domain. It includes components for data ingestion, transformation, fraud detection, and visualization, aiming to provide insights into suspicious activity.
+This **Proof of Concept (PoC)** demonstrates a banking transaction data pipeline for **fraud detection** at VPBank. It includes components for **data ingestion**, **ETL processing**, **fraud detection**, and **visualization** to support real-time transaction monitoring.
 
-## Project Overview
+### **Key Features**:
+- **Synthetic Data Generation**: Simulates banking transactions for testing.
+- **ETL Pipeline**: Automates data extraction, transformation, and loading using Python, Apache Spark, and Airflow.
+- **Fraud Detection**: Detects suspicious activities (e.g., large transactions, rapid consecutive transactions).
+- **Data Visualization**: Provides a dashboard to monitor trends and fraud alerts using Streamlit.
 
-The solution processes simulated banking transactions to detect potentially fraudulent activities using a rule-based detection system. It also generates reports and visualizations to support decision-making in the banking sector.
+This PoC is scalable for integration into VPBank’s infrastructure to enhance fraud detection and transaction monitoring.
 
-### Key Features
+### **Tech Stack**:
+- **Languages**: Python 3.x
+- **Libraries**: 
+  - **Pandas**, **PySpark** for data processing
+  - **Apache Airflow** for ETL orchestration
+  - **Faker** for synthetic data
+  - **Streamlit** for interactive dashboards
+  - **PostgreSQL** for data storage
 
-- **Data Simulation**: Generate synthetic transactional data with Faker.
-- **ETL Pipeline**: Process and clean data using Apache Spark/Pandas.
-- **Fraud Detection**: Implement rule-based fraud detection (e.g., large transactions, rapid consecutive transactions).
-- **Data Storage**: Store processed data in a PostgreSQL database.
-- **Visualization**: Create interactive dashboards using Streamlit for fraud detection insights.
-
-## Tech Stack
-
-- **Programming Languages**: Python
-- **Libraries**:
-  - **Faker**: For generating synthetic transaction data.
-  - **Pandas**: For data transformation and cleaning.
-  - **PySpark**: For distributed data processing (optional).
-  - **PostgreSQL**: For storing transaction data.
-  - **Streamlit**: For creating interactive dashboards.
-- **Other Tools**:
-  - **Apache Airflow** (or **Prefect**) for orchestration of the ETL pipeline.
-  - **Docker**: For containerizing the application.
 
 ## Project Structure
 
